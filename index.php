@@ -23,6 +23,7 @@
 			<header>
 				<div class="header-fit">
 					<div class="header-content">
+						<div class="logo"><img src="img/logotipo.png" alt="logoimage"></div>
 						<h1>CASA AMIGA IMOVEIS
 						<p>consultoria imobiliaria</p>
 						</h1>
