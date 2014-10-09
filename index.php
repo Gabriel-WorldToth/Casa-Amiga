@@ -24,7 +24,7 @@
 				<div class="header-fit">
 					<div class="header-content">
 						<h1>CASA AMIGA IMOVEIS
-						<p>consultoria e imobiliaria</p>
+						<p>consultoria imobiliaria</p>
 						</h1>
 						<nav>
 							<ul>
