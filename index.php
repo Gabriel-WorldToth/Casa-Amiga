@@ -1,25 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
+
 	<html lang="pt-br">
+	
 		<head>
+			<title>CASA AMIGA IMOVEIS</title>
 			<meta charset="utf-8">
-			<title>Casa Amiga | Imoveis e Administração</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-			<meta name="ROBOTS" content="INDEX,FOLLOW">
-			<meta name="description" content="Encontre aqui seu imovel">
-			<meta name="keywords" content="Imovel, Casa, Aluguel de casa, Imobiliaria">
-			<meta name="author" content="WorldToth - WebDeveloper">
-				<!-- Styles -->
-				<link rel="stylesheet" href="css/style.css">
-				<link rel="stylesheet" href="css/normalize.css">
-				<link rel="stylesheet" href="css/custom.css" />
-				<link rel="stylesheet" href="css/slicebox.css" />
-				<!-- Scripts-->
-				<script src="js/moderniz.js"></script>
-		</head>
+			<meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1">
+			<meta name="viewport"content="width=device-width,initial-scale=1">
+			<meta name="robot"content="index,follow">
+			<meta name="keywords"content="IMOBILIARIA">
+			<meta name="description"content="entre em nosso site para conheçe os nossos imoveis
+			copramos e vendemos imoveis temos otimos preços">
+			<meta name="author"content="WorldToth">
+			<link rel="stylesheet"href="css/style.css">
+			<link rel="stylesheet" href="css/normalize.css">
+			<link rel="stylesheet" type="text/css" href="css/custom.css" />
+			<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+			<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+	    </head>
 		
 		<body>
-					<div class="container">
+		<div class="container">
 			<header>
 				<div class="header-fit">
 					<div class="header-content">
@@ -155,7 +156,7 @@
 			<footer>
 			</footer>
 		</div>
-		<script src="jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slicebox.min.js"></script>
 		<script type="text/javascript">
 			$(function() {
@@ -223,6 +224,6 @@
 
 			});
 		</script>
-		
 		</body>
+		
 	</html>

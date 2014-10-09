@@ -1,6 +1,4 @@
-Casa-Amiga
-==========
+CasaAmigaImoveis
+================
 
 Site em construção
-
-By: Copyright "WorldToth - Web Desenvolvimentos"
