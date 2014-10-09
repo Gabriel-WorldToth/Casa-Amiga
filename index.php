@@ -1,9 +1,8 @@
 <!doctype html>
 
 	<html lang="pt-br">
-	
 		<head>
-			<title>CASA AMIGA IMOVEIS</title>
+			<title>Casa Amiga | Imóveis e Administração</title>
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1">
 			<meta name="viewport"content="width=device-width,initial-scale=1">
@@ -12,10 +11,10 @@
 			<meta name="description"content="entre em nosso site para conheçe os nossos imoveis
 			copramos e vendemos imoveis temos otimos preços">
 			<meta name="author"content="WorldToth">
-			<link rel="stylesheet"href="css/style.css">
+			<link rel="stylesheet" href="css/style.css">
 			<link rel="stylesheet" href="css/normalize.css">
-			<link rel="stylesheet" type="text/css" href="css/custom.css" />
-			<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+			<link rel="stylesheet" href="css/custom.css" />
+			<link rel="stylesheet" href="css/slicebox.css" />
 			<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
 	    </head>
 		
@@ -85,7 +84,6 @@
 				
 			</section>
 			<div class="wrapper">
-
 				<ul id="sb-slider" class="sb-slider">
 					<li>
 						<a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank"><img src="img/1.jpg" alt="image1"/></a>
@@ -130,19 +128,15 @@
 						</div>
 					</li>
 				</ul>
-
 				<div id="shadow" class="shadow"></div>
-
 				<div id="nav-arrows" class="nav-arrows">
 					<a href="#">Next</a>
 					<a href="#">Previous</a>
 				</div>
-
 				<div id="nav-options" class="nav-options">
 					<span id="navPlay">Play</span>
 					<span id="navPause">Pause</span>
 				</div>
-
 			</div><!-- /wrapper -->
 
 			<content class="wrapper">
