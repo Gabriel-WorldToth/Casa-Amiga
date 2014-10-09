@@ -1,0 +1,81 @@
+body{
+	margin:0;
+	padding:0;
+	background-size: cover;
+}
+
+header{
+	width: 100%;
+height: 655px;
+
+	padding: 20px 0;
+
+
+	background: url(../img/capa.jpg)}
+.header-fit{
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	margin: 0 0 10%;
+}
+.header-fit h1{
+	float:left;
+	margin:80px 0 0 0;
+	font-size: 1.8em;
+	
+}
+.header-fit h1 p{
+font-size: 0.7em;
+margin:0;
+}
+
+.header-fit nav{
+	float:right;
+	margin:80px 0 0 0;
+	
+}
+.header-fit nav ul li{
+	display:inline-block;
+	padding: 0 1.1em;
+	font-family:cursive;
+	font-size: 0.8em;
+}
+section{
+	width:67.5%;
+	margin: 0px auto;
+	background-color: rgb(239, 237, 241);
+}
+.content-busca{
+	width: 67.5%;
+	padding: 10px;
+	background-color: aliceblue;
+	margin: auto;
+	display: block;
+}
+.content-busca .busca-fit{
+	width: 75%;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+}
+
+.content-busca .busca-fit select{
+	padding: 3%;
+	margin: 19px 12px 23px;
+	border-radius: 11px;
+	box-shadow: 2px 2px 5px;
+	
+}
+
+.header-content{
+	width:67.5%;
+	margin:0 auto;
+}
+.wrapper {
+	position: relative;
+	max-width: 840px;
+	width: 100%;
+	padding: 0 50px;
+	margin: 0 auto;
+	display: block;
+}
