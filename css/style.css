@@ -33,7 +33,6 @@ header{
 	margin: -5px 0 0 0;
 	clear: both;
 	font-size: 1.8em;
-	
 	line-height: 0.8em;
 	letter-spacing: -0.05em;
 	display: inline-block;
@@ -91,7 +90,7 @@ section{
 	background-color: rgb(239, 237, 241);
 }
 
-.wrapper {
+.wrapper{
 	position: relative;
 	max-width: 840px;
 	width: 100%;
