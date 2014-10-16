@@ -1,8 +1,7 @@
 <!doctype html>
-
 	<html lang="pt-br">
 		<head>
-			<title>Casa Amiga | Imóveis e Administração</title>
+			<title>Casa Amiga | Imoveis e Administra&ccedil;&atilde;o</title>
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1">
 			<meta name="viewport"content="width=device-width,initial-scale=1">
@@ -25,7 +24,7 @@
 					<div class="header-content">
 						<div class="logo"><img src="img/logotipo.png" alt="logoimage"></div>
 						<h1>CASA AMIGA
-						<p>consultoria imobiliária</p>
+						<p>consultoria imobili&aacute;ria</p>
 						</h1>
 						<nav>
 							<ul>
@@ -151,6 +150,7 @@
 			<footer>
 			</footer>
 		</div>
+		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slicebox.min.js"></script>
 		<script type="text/javascript">
