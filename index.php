@@ -7,15 +7,15 @@
 			<meta name="viewport"content="width=device-width,initial-scale=1">
 			<meta name="robot"content="index,follow">
 			<meta name="keywords"content="IMOBILIARIA">
-			<meta name="description"content="entre em nosso site para conheçe os nossos imoveis
-			copramos e vendemos imoveis temos otimos preços">
+			<meta name="description"content="entre em nosso site para conheï¿½e os nossos imoveis
+			copramos e vendemos imoveis temos otimos preï¿½os">
 			<meta name="author"content="WorldToth">
 			<link rel="stylesheet" href="css/style.css">
 			<link rel="stylesheet" href="css/normalize.css">
 			<link rel="stylesheet" href="css/custom.css" />
 			<link rel="stylesheet" href="css/slicebox.css" />
 			<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
-	    </head>
+		</head>
 		
 		<body>
 		<div class="container">
@@ -150,8 +150,7 @@
 			<footer>
 			</footer>
 		</div>
-		
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slicebox.min.js"></script>
 		<script type="text/javascript">
 			$(function() {
