@@ -83,14 +83,14 @@ img{ max-width: 100% }
 header{
 	width: 100%;
 	padding: 20px 0;
-	background: url(../img/capa.jpg)no-repeat scroll top center;
+	background: url(../img/capa.jpg)no-repeat fixed top center;
 }
 
 header > .header-fit{
 	width: 100%;
 	display: inline-block;
 	background-color: #fff;
-	margin: 0 0 10%;
+	margin: 0 0 7%;
 }
 
 header > .header-fit .header-content{
@@ -153,29 +153,30 @@ header > .header-fit .header-content nav ul li a:hover{
 header > .header-fit .header-content nav ul li a span{
 	font-family: 'Exo 2', sans-serif;
 	font-weight: normal;
-	font-size: .88em;
+	font-size: 1.2em;
 }
 
 header > .content-busca{
 	width: 67.5%;
 	padding: 10px;
-	background-color: aliceblue;
-	margin: auto;
+	background-color: rgba(210, 246, 255, 0.26);
+	margin: 0 auto 6%;
 	display: block;
 }
 header > .content-busca .busca-fit{
-	width: 75%;
-	background-color: white;
+	width: 100%;
+	/* background-color: white; */
 	position: relative;
 	display: inline-block;
 }
 
 header > .content-busca .busca-fit select{
-	padding: 3%;
-	margin: 19px 12px 23px;
+	padding: 2%;
+	margin: 19px 3% 23px;
 	border-radius: 11px;
 	box-shadow: 2px 2px 5px;
 	
+	width: 20%;
 }
 
 section{
@@ -218,7 +219,7 @@ section{
 	border-right: 1px solid ;
 	display: block;
 	overflow: hidden;
-	width: 50%;
+	width: 80%;
 }
 
 .wrapper > .content-viewPlus .content-links ul li a{
@@ -262,4 +263,43 @@ section{
 	padding: 0 0.2em 0.2em 0;
 }
 
+footer{
+	background-image: url('../img/capa.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -75px;
+	background-attachment: fixed;
+}
 
+footer > .footer-fit{
+	width: 67.5%;
+	margin: auto;
+	overflow: hidden;
+	display: block;
+	padding: 45px 0;
+	line-height: 70px;
+}
+
+footer > .footer-fit-ul{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+footer > .footer-fit ul{
+	display: inline-block;
+	overflow: hidden;
+	padding: 0 70px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+footer > .footer-fit .newslleter{
+margin: auto;
+text-align: center;
+display: block;
+overflow: hidden;
+}

@@ -147,7 +147,7 @@
 							<li><a class="icon icon-casa" href="#"><span>Casa</span></a></li>
 							<li><a class="icon icon-apartamento" href="#"><span>Apartamento</span></a></li>
 							<li><a class="icon icon-image" href="#"><span>Loteamento</span></a></li>
-							<li><a class="icon icon-home" href="#"><span>Comercial</span></a></li>
+							<li><a class="icon icon-home" style="border-bottom:none !important;" href="#"><span>Comercial</span></a></li>
 						</ul>
 					</div>
 					<div class="content-img">
@@ -163,24 +163,26 @@
 			</article>
 			<footer>
 				<div class="footer-fit">
-					<ul>
-						<li><a class="" href=""><span>Casa</span></a></li>
-						<li><a class="" href=""><span>Apartamento</span></a></li>
-						<li><a class="" href=""><span>Loteamento</span></a></li>
-						<li><a class="" href=""><span>Comercial</span></a></li>
-					</ul>
-					<ul>
-						<li><a class="" href=""><span>Contato</span></a></li>
-						<li><a class="" href=""><span>Tel: (12)0000-0000</span></a></li>
-						<li><a class="" href=""><span>Email: exemple@exemple.com</span></a></li>
-						<li><a class="" href=""><span>Skype: </span></a></li>
-					</ul>
-					<ul>
-						<li><a class="" href=""><span>Siga-nos</span></a></li>
-						<li><a class="" href=""><span>Facebook</span></a></li>
-						<li><a class="" href=""><span>Skype</span></a></li>
-						<li><a class="" href=""><span>Twitter</span></a></li>
-					</ul>
+					<div class="footer-fit-ul">
+						<ul>
+							<li><a class="icon icon-casa" href=""><span>Casa</span></a></li>
+							<li><a class="icon icon-apartamento" href=""><span>Apartamento</span></a></li>
+							<li><a class="icon icon-image" href=""><span>Loteamento</span></a></li>
+							<li><a class="icon icon-home" href=""><span>Comercial</span></a></li>
+						</ul>
+						<ul>
+							<li><a class="" href=""><span>Contato</span></a></li>
+							<li><a class="" href=""><span>Tel: (12)0000-0000</span></a></li>
+							<li><a class="" href=""><span>Email: exemple@exemple.com</span></a></li>
+							<li><a class="" href=""><span>Skype: </span></a></li>
+						</ul>
+						<ul>
+							<li><a class="" href=""><span>Siga-nos</span></a></li>
+							<li><a class="icon icon-facebook" href=""><span>Facebook</span></a></li>
+							<li><a class="" href=""><span>Skype</span></a></li>
+							<li><a class="" href=""><span>Twitter</span></a></li>
+						</ul>
+					</div>
 					<div class="newslleter">
 						<input name="newslleter" type="email">
 						<label>Newslleter</label>
