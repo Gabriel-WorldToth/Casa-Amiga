@@ -22,17 +22,18 @@
 			<header>
 				<div class="header-fit">
 					<div class="header-content">
-						<div class="logo"><img src="img/logotipo.png" alt="logoimage"></div>
-						<h1>CASA AMIGA
-						<p>consultoria imobili&aacute;ria</p>
+						<h1>
+							<img src="img/logotipo.png" alt="logoimage">
+						CASA AMIGA
+							<p>consultoria imobili&aacute;ria</p>
 						</h1>
 						<nav>
 							<ul>
-								<li><a href="#">INICIO</a></li>
-								<li><a href="#">CONTATOS</a></li>
-								<li><a href="#">FOTOS</a></li>
-								<li><a href="#">IMOVEIS</a></li>
-								<li><a href="#">IMAGENS</a></li>
+								<li><a class="icon icon-casa" href="#"><span>Home</span></a></li>
+								<li><a class="icon icon-chave" href="#"><span>Im&oacute;veis</span></a></li>
+								<li><a class="icon icon-image" href="#"><span>Loteamento</span></a></li>
+								<li><a class="icon icon-lancamento" href="#"><span>Lan&ccedil;amentos</span></a></li>
+								<li><a class="icon icon-chat" style="margin-right: 0;" href="#"><span>Contato</span></a></li>
 							</ul>
 						</nav>
 					</div>
@@ -139,14 +140,27 @@
 				</div>
 			</div><!-- /wrapper -->
 
-			<content class="wrapper">
-				<div class="content-img">
-					<img src="img/capa1.jpg"><img src="img/capa3.jpg">
-					<img src="img/capa4.jpg"><img src="img/capa2.jpg">
-					<img src="img/capa6.jpg"><img src="img/capa5.jpg">
-					<img src="img/capa7.jpg">
+			<article class="wrapper">
+				<div class="content-viewPlus">
+					<div class="content-links">
+						<ul>
+							<li><a href="#"><span>Casa</span></a></li>
+							<li><a href="#"><span>Apartamento</span></a></li>
+							<li><a href="#"><span>Loteamento</span></a></li>
+							<li><a href="#"><span>Comercial</span></a></li>
+						</ul>
+					</div>
+					<div class="content-img">
+						<img src="img/capa1.jpg">
+						<img src="img/capa3.jpg">
+						<img src="img/capa4.jpg">
+						<img src="img/capa2.jpg">
+						<img src="img/capa6.jpg">
+						<img src="img/capa4.jpg">
+						<img src="img/capa7.jpg">
+					</div>
 				</div>
-			</content>
+			</article>
 			<footer>
 			</footer>
 		</div>
