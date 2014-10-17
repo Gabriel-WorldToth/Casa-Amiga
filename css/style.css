@@ -104,6 +104,7 @@ header > .header-fit .header-content h1{
 	width: 20%;
 	display: inline-block;
 	float: left;
+	font-family: 'Varela Round', sans-serif;
 	font-size: 1.8em;
 	line-height: 0.8em;
 	letter-spacing: -0.05em;
