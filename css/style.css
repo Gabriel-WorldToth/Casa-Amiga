@@ -1,3 +1,77 @@
+/* fontes de links */
+@import url(http://fonts.googleapis.com/css?family=Exo+2|Varela+Round);
+/*
+ *  font-family: 'Exo 2', sans-serif;
+	font-family: 'Varela Round', sans-serif;
+ */
+
+/* icones fontes */
+@font-face {
+	font-family: 'casa-amiga';
+	src:url('fonts/casa-amiga.eot?v9tjfv');
+	src:url('fonts/casa-amiga.eot?#iefixv9tjfv') format('embedded-opentype'),
+		url('fonts/casa-amiga.woff?v9tjfv') format('woff'),
+		url('fonts/casa-amiga.ttf?v9tjfv') format('truetype'),
+		url('fonts/casa-amiga.svg?v9tjfv#casa-amiga') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon:before{
+	display: inline-block;
+	margin: 0 0.4em 0 0;
+	vertical-align: baseline;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 1.4em;
+	font-family: 'casa-amiga';
+	line-height: 1;
+	speak: none;
+	-webkit-backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; 
+}
+
+.icon-home:before {
+	font-family: 'casa-amiga';
+	content: "\c600";
+}
+.icon-casa:before {
+	content: "\c601";
+}
+.icon-apartamento:before {
+	content: "\c602";
+}
+.icon-lancamento:before {
+	content: "\c603";
+}
+.icon-image:before {
+	content: "\c604";
+}
+.icon-preco:before {
+	content: "\c605";
+}
+.icon-localizacao:before {
+	content: "\c606";
+}
+.icon-agendar:before {
+	content: "\c607";
+}
+.icon-chat:before {
+	content: "\c608";
+}
+.icon-corretor:before {
+	content: "\c609";
+}
+.icon-chave:before {
+	content: "\c60a";
+}
+.icon-facebook:before {
+	content: "\c60b";
+}
+
+/* Global */
 body{
 	margin:0;
 	padding:0;
@@ -8,80 +82,99 @@ img{ max-width: 100% }
 
 header{
 	width: 100%;
-	height: 655px;
 	padding: 20px 0;
-	background: url(../img/capa.jpg)
+	background: url(../img/capa.jpg)no-repeat scroll top center;
 }
 
-.header-fit{
+header > .header-fit{
 	width: 100%;
 	display: inline-block;
 	background-color: #fff;
 	margin: 0 0 10%;
 }
 
-.header-fit .logo{
-	display: inline-block;
-	float: left;
-	width: 20%;
-	padding: 0px;
-	left: 0;
-	border: 0;
+header > .header-fit .header-content{
+	width: 67.5%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
 }
 
-.header-fit h1{
-	margin: -5px 0 0 0;
-	clear: both;
+header > .header-fit .header-content h1{
+	width: 20%;
+	display: inline-block;
+	float: left;
 	font-size: 1.8em;
 	line-height: 0.8em;
 	letter-spacing: -0.05em;
-	display: inline-block;
-	float: left;
 }
 
-.header-fit h1 p{
+header > .header-fit .header-content h1 p{
 	font-size: 0.7em;
 	margin:0;
 }
 
-.header-fit nav{
-	margin: -95px 0 0 0;
+header > .header-fit .header-content nav{
+	margin: 12% 0 0 0;
 	display: inline-block;
 	float: right;
+	background: rgba(40,44,42,0.05);
 }
 
-.header-fit nav ul li{
-	display:inline-block;
-	padding: 0 1.1em;
-	font-family:cursive;
-	font-size: 0.8em;
+header > .header-fit .header-content nav ul{
+	border: 4px solid transparent;
+	overflow: hidden;
 }
 
-.content-busca{
+header > .header-fit .header-content nav ul li{
+	float: left;
+	overflow: hidden;
+	display: block;
+}
+
+header > .header-fit .header-content nav ul li a{
+	position: relative;
+	display: block;
+	margin: 0 0.3em 0 0;
+	padding: 0 0.3em 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 2.5;
+	background-color: #fff;
+}
+
+header > .header-fit .header-content nav ul li a:hover{
+	color: #07C95C;
+	background-color: #AFFF89;
+}
+
+header > .header-fit .header-content nav ul li a span{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: normal;
+	font-size: .88em;
+}
+
+header > .content-busca{
 	width: 67.5%;
 	padding: 10px;
 	background-color: aliceblue;
 	margin: auto;
 	display: block;
 }
-.content-busca .busca-fit{
+header > .content-busca .busca-fit{
 	width: 75%;
 	background-color: white;
 	position: relative;
 	display: inline-block;
 }
 
-.content-busca .busca-fit select{
+header > .content-busca .busca-fit select{
 	padding: 3%;
 	margin: 19px 12px 23px;
 	border-radius: 11px;
 	box-shadow: 2px 2px 5px;
 	
-}
-
-.header-content{
-	width:67.5%;
-	margin:0 auto;
 }
 
 section{
@@ -97,4 +190,37 @@ section{
 	padding: 0 50px;
 	margin: 0 auto;
 	display: block;
+}
+
+.wrapper > .content-viewPlus{
+	width: 100%;
+	margin: 0 0.2em;
+	padding: 0.8em;
+	display: inline-flex;
+}
+
+.wrapper > .content-viewPlus .content-links{
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin: 0 0.5em 0 0;
+	padding: 0;
+	border: 0;
+}
+
+.wrapper > .content-viewPlus .content-img{
+	width: 50%;
+	height: 100%;
+	float: right;
+	margin: 0 0 0 0.5em;
+	padding: 0;
+	border: 0;
+	line-height: 0;
+} 
+
+.wrapper > .content-viewPlus .content-img img{
+	width: 50%;
+	height: 20%;
+	float: left;
+	padding: 0 0.2em 0.2em 0;
 }
