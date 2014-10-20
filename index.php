@@ -29,8 +29,8 @@
 						</h1>
 						<nav>
 							<ul>
-								<li><a class="icon icon-casa" href="#"><span>Home</span></a></li>
-								<li><a class="icon icon-chave" href="#"><span>Im&oacute;veis</span></a></li>
+								<li><a class="icon icon-casa" href="index.php"><span>Home</span></a></li>
+								<li><a class="icon icon-chave" href="imoveis.php"><span>Im&oacute;veis</span></a></li>
 								<li><a class="icon icon-image" href="#"><span>Loteamento</span></a></li>
 								<li><a class="icon icon-lancamento" href="#"><span>Lan&ccedil;amentos</span></a></li>
 								<li><a class="icon icon-chat" style="margin-right: 0;" href="#"><span>Contato</span></a></li>
